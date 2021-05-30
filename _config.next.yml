@@ -85,11 +85,12 @@ menu:
   home: / || fa fa-home
   
   斐讯:
-    default: /phicomm/ || fas fa-boxes
+    default: /phicomm/ || fas fa-hdd
     
     N1盒子: 
       default: /n1/ || fas fa-box
-      电视盒子: /tv-box.html || fa fa-tv
+      降级刷机: /burn.html || fas fa-burn
+      电视固件: /firmware.html || fas fa-tv
       Armbian: /armbian.html || fab fa-linux
       OpenWrt: /openwrt.html || fa fa-wifi
       
@@ -107,14 +108,38 @@ menu:
       
     M1空气检测器:
       default: /m1/ || fas fa-temperature-high
+      
+    K3路由器:
+      default: /k3/ || fas fa-ethernet
+      
+    K2P路由器:
+      default: /k2p/ || fas fa-ethernet
   
   友善电子:
     default: /friendlyarm/ || fas fa-th-large
     
+    R2S:
+      default: /r2s/ || fas fa-microchip
+      
+    R4S:
+      default: /r4s/ || fas fa-microchip
+      官方固件: /official-burn.html || fas fa-burn
+      第三方固件: /thirdparty-burn.html || fas fa-burn
+    
   树莓派:
     default: /raspberrypi/ || fab fa-raspberry-pi
     
-  
+    Raspberry Pi 0/W:
+      default: /rp0/ || fab fa-raspberry-pi
+    
+    Raspberry Pi 4:
+      default: /rp4/ || fab fa-raspberry-pi
+    
+  OpenWrt:
+    default: /openwrt/ || fas fa-wifi
+    
+  UnRaid:
+    default: /unraid/ || fa fa-server
   
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
